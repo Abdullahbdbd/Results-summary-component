@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-header {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background: linear-gradient(to bottom, #6741FF 10%, #322CEB 40%);
+    border-radius: 0 0 40px 40px;
+    padding: 30px;
+}
+
+.card-header h4 {
+    color: rgba(226, 226, 226, 0.653);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.header-number {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 30px auto;
+    background: linear-gradient(to bottom, #4120a2a1 10%, #4734EF 70%);
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-number h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.header-number p {
+    color: rgba(226, 226, 226, 0.653);
+    font-weight: 900;
+}
+
+.card-header h2 {
+    color: rgba(255, 255, 255, 0.88);
+
+}
+
+.artical {
+    width: 60%;
+    margin: 15px auto;
+    color: rgba(226, 226, 226, 0.653);
+    font-weight: 600;
+    word-spacing: 2px;
+}
+
+.summary {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.summary-body {
+    margin: 25px 0;
+}
+
+.summary h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 30px 0;
+}
+
+.summary-box {
+    width: 100%;
+    padding: 20px 25px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+}
+
+.heading {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 1px;
+}
+
+.reaction {
+    background: linear-gradient(to right, #fff6f7 0%, #fff7f5 40%);
+}
+
+.reaction-icon {
+    font-size: 25px;
+    color: #ef6c82;
+}
+
+.reaction-color {
+    color: #ef6c82;
+}
+
+.point {
+    font-size: 20px;
+}
+
+.point-color {
+    color: rgb(183, 182, 182);
+}
+
+.memory {
+    background: linear-gradient(to right, #fcfcef 0%, #fefaf2 40%);
+}
+
+.memory-icon {
+    font-size: 25px;
+    color: #EBC679;
+}
+
+.memory-color {
+    color: #EBC679;
+}
+
+.verbal {
+    background: linear-gradient(to right, #f3fbfa 0%, #f2fbfa 40%);
+}
+
+.verbal-icon {
+    font-size: 25px;
+    color: #72C7AF;
+}
+
+.verbal-color {
+    color: #72C7AF;
+}
+
+.visual {
+    background: linear-gradient(to right, #f4f5ff 0%, #f3f4ff 40%);
+}
+
+.visual-icon {
+    font-size: 25px;
+    color: #807FD0;
+}
+
+.visual-color {
+    color: #807FD0;
+}
+
+.btn{
+    width: 95%;
+    margin: 10px auto;
+}
+button{
+    width: 100%;
+    color: white;
+    background-color: #303B5A;
+    padding: 20px;
+    border-radius: 40px;
+
+    font-size: 20px;
+    letter-spacing: 2px;
+}
